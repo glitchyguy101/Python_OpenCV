@@ -1,14 +1,47 @@
-The file opencv_method.py contain the basic Opencv functions and methods to practice, learn and to understand.
-It includes operations like:
-    1)reading image  (img)
-    2)showing image output  (cv2.imshow("image", img))
-    3)capturing video via webcam(0 for default, and 1 for another webcam)
-    4)resizing image  (imgResize)
-    5)converting image in to Grayscale(imgGary), applying Blur(imgBlur)
-    6)detect edges  (imgCanny)
-    7)edgesize:- dilation (imgDilate), errosion (imgErrode)
-    8)cropping image (imgCropped)
-    9)addding shpae and text
-    10)joining images 
-    11) Wrap perspective
-    12)Detecting mouse click
+This file contains basic OpenCV functions and methods to help you practice, learn, and understand image and video processing using Python.
+
+📌 Features & Functions Included:
+Read an Image
+Load an image from your system.
+
+Display Image Output
+Use cv2.imshow("Image", img) to show the image in a window.
+
+Capture Video from Webcam
+
+0 for the default webcam
+
+1 for an external/secondary webcam
+
+Resize an Image
+Adjust the dimensions of an image (imgResize).
+
+Convert to Grayscale & Apply Blur
+
+Convert to grayscale: imgGray
+
+Apply blur: imgBlur
+
+Edge Detection
+Use Canny edge detection: imgCanny
+
+Edge Thickness Adjustment
+
+Dilation: imgDilate (thickens edges)
+
+Erosion: imgErode (thins edges)
+
+Crop an Image
+Select and crop a specific region: imgCropped
+
+Draw Shapes & Add Text
+Draw rectangles, circles, lines, and add custom text on images.
+
+Join/Stack Images
+Combine multiple images together in a grid or row.
+
+Perspective Warp
+Apply a warp transformation to get a bird's-eye view.
+
+Mouse Click Detection
+Detect mouse clicks on the image and retrieve coordinates.
